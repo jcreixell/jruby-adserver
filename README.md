@@ -44,6 +44,14 @@ mysql> insert into offers values (2, 'offer2', 5, 'http://www.example.com');
 mysql> insert into offers values (3, 'offer3', 10, 'http://www.somethingelse.com');
 ```
 
+## Testing
+
+To run tests:
+
+```
+ruby test/server_test.rb
+```
+
 ## Development
 
 Start the server using:

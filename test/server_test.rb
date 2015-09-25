@@ -1,6 +1,6 @@
 require "cuba/test"
-require_relative "lib/jruby-adserver"
-require_relative "server"
+require_relative "../lib/jruby-adserver"
+require_relative "../server"
 
 scope do
   test "Status Page" do
