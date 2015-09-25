@@ -1,0 +1,47 @@
+GEM
+  remote: https://rubygems.org/
+  specs:
+    clap (1.0.0)
+    cuba (3.4.0)
+      rack
+    cutest (1.2.2)
+      clap
+    rack (1.6.4)
+    rack-protection (1.5.3)
+      rack
+    rack-test (0.6.3)
+      rack (>= 1.0)
+    rake (10.1.0)
+    sequel (4.26.0)
+    torquebox (4.0.0.beta2-java)
+      torquebox-caching (= 4.0.0.beta2)
+      torquebox-core (= 4.0.0.beta2)
+      torquebox-messaging (= 4.0.0.beta2)
+      torquebox-scheduling (= 4.0.0.beta2)
+      torquebox-web (= 4.0.0.beta2)
+    torquebox-caching (4.0.0.beta2-java)
+      torquebox-core (= 4.0.0.beta2)
+    torquebox-core (4.0.0.beta2-java)
+    torquebox-messaging (4.0.0.beta2-java)
+      torquebox-core (= 4.0.0.beta2)
+    torquebox-scheduling (4.0.0.beta2-java)
+      torquebox-core (= 4.0.0.beta2)
+    torquebox-web (4.0.0.beta2-java)
+      rack (>= 1.4.0, < 2.0)
+      torquebox-core (= 4.0.0.beta2)
+
+PLATFORMS
+  java
+
+DEPENDENCIES
+  cuba
+  cutest
+  rack
+  rack-protection
+  rack-test
+  rake
+  sequel
+  torquebox (= 4.0.0.beta2)
+
+BUNDLED WITH
+   1.10.6
